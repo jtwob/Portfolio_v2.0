@@ -20,19 +20,19 @@ const Nav = (props) => {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-            <a className="nav-link" href="/">
+            <a className="nav-link" href="/Portfolio_v2.0/">
               Home
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/portfolio">
+            <a className="nav-link" href="/Portfolio_v2.0/portfolio">
               Portfolio
             </a>
           </li>
           <li className="nav-item">
             <a
               className="nav-link"
-              href="/assets/James_Totah_Resume.pdf"
+              href="./assets/James_Totah_Resume.pdf"
               download
             >
               Resume

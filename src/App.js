@@ -8,7 +8,7 @@ import Footer from "./Components/Footer/Footer";
 
 function App() {
   const info = {
-    image: "/assets/images/Portrait.jpg",
+    image: "./assets/images/Portrait.jpg",
     altText: "James-Totah-Headshot",
     text:
       "Hello! My name is James Totah and I am 22 years old. I have been a Computer Science Major at the University of San Francisco for 3 years now, and have opted to partake in a UC Berkeley Web Development bootcamp to polish off my web dev skills. I'm well versed in Python, Java, and C, with some experience in functional languages like Haskell and Racket. Recently I've learned JavaScript, along with a few relevent libraries. I have lived in San Francisco my whole life, and have always been a fan of tinkering with technology. I suppose it only makes sense since the bay area is currently the tech capital of the world. I hope to finish my CS degree as soon as remote learning is no longer necessary, and move on to bigger and better things!",
@@ -21,7 +21,7 @@ function App() {
 
   const projects = [
     {
-      image: "/assets/images/uConnect.jpg",
+      image: "./assets/images/uConnect.jpg",
       altText: "uConnect.jpg",
       title: "Project: uConnect",
       text:
@@ -30,7 +30,7 @@ function App() {
       live: "https://uconnect-project2.herokuapp.com",
     },
     {
-      image: "/assets/images/Travel_Almanac.gif",
+      image: "./assets/images/Travel_Almanac.gif",
       altText: "Travel_Almanac.gif",
       title: "Project: Travel Almanac",
       text:
@@ -39,7 +39,7 @@ function App() {
       live: "https://jtwob.github.io/Travel_Almanac/",
     },
     {
-      image: "/assets/images/Quiz.gif",
+      image: "./assets/images/Quiz.gif",
       altText: "Quiz.gif",
       title: "Project: Coding Quiz",
       text:
@@ -48,7 +48,7 @@ function App() {
       live: "https://jtwob.github.io/Coding_Quiz/",
     },
     {
-      image: "/assets/images/Weather_App.png",
+      image: "./assets/images/Weather_App.png",
       altText: "Weather_App.png",
       title: "Project: Weather Dashboard",
       text:
@@ -57,7 +57,7 @@ function App() {
       live: "https://jtwob.github.io/Weather_App/",
     },
     {
-      image: "/assets/images/burger-app.png",
+      image: "./assets/images/burger-app.png",
       altText: "burger-app.png",
       title: "Project: Eat Da Burger",
       text:
