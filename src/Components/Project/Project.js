@@ -17,7 +17,7 @@ const Project = (props) => {
                 {props.title}
               </h4>
               <p className="card-text">{props.text}</p>
-              <a href={props.repo}>Github Repo</a>
+              <a href={props.repo}>Github Repo </a>
 
               <a href={props.live}>Live Deployed App</a>
             </div>
