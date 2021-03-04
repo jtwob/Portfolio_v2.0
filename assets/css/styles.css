@@ -1,0 +1,10 @@
+/* Background styling */
+body {
+  background-image: url("../images/double-bubble.png");
+}
+
+/* For the picture on the homepage */
+.wrap-text {
+  float: left;
+  margin: 10px;
+}
