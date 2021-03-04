@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.fac1bd78.chunk.css",
-    "main.js": "/portfolio/static/js/main.9dab24d2.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9dab24d2.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.bd61e705.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.bd61e705.js.map",
-    "static/js/2.1a0d420d.chunk.js": "/portfolio/static/js/2.1a0d420d.chunk.js",
-    "static/js/2.1a0d420d.chunk.js.map": "/portfolio/static/js/2.1a0d420d.chunk.js.map",
-    "static/js/3.06372844.chunk.js": "/portfolio/static/js/3.06372844.chunk.js",
-    "static/js/3.06372844.chunk.js.map": "/portfolio/static/js/3.06372844.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "static/css/main.fac1bd78.chunk.css.map": "/portfolio/static/css/main.fac1bd78.chunk.css.map",
-    "static/js/2.1a0d420d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1a0d420d.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/portfolio/static/media/double-bubble.2a64f86f.png",
-    "static/media/logo.6ce24c58.svg": "/portfolio/static/media/logo.6ce24c58.svg"
+    "main.css": "/Portfolio_v2.0/static/css/main.05c7c917.chunk.css",
+    "main.js": "/Portfolio_v2.0/static/js/main.9dab24d2.chunk.js",
+    "main.js.map": "/Portfolio_v2.0/static/js/main.9dab24d2.chunk.js.map",
+    "runtime-main.js": "/Portfolio_v2.0/static/js/runtime-main.8e680be0.js",
+    "runtime-main.js.map": "/Portfolio_v2.0/static/js/runtime-main.8e680be0.js.map",
+    "static/js/2.1a0d420d.chunk.js": "/Portfolio_v2.0/static/js/2.1a0d420d.chunk.js",
+    "static/js/2.1a0d420d.chunk.js.map": "/Portfolio_v2.0/static/js/2.1a0d420d.chunk.js.map",
+    "static/js/3.06372844.chunk.js": "/Portfolio_v2.0/static/js/3.06372844.chunk.js",
+    "static/js/3.06372844.chunk.js.map": "/Portfolio_v2.0/static/js/3.06372844.chunk.js.map",
+    "index.html": "/Portfolio_v2.0/index.html",
+    "static/css/main.05c7c917.chunk.css.map": "/Portfolio_v2.0/static/css/main.05c7c917.chunk.css.map",
+    "static/js/2.1a0d420d.chunk.js.LICENSE.txt": "/Portfolio_v2.0/static/js/2.1a0d420d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Portfolio_v2.0/static/media/double-bubble.2a64f86f.png",
+    "static/media/logo.6ce24c58.svg": "/Portfolio_v2.0/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bd61e705.js",
+    "static/js/runtime-main.8e680be0.js",
     "static/js/2.1a0d420d.chunk.js",
-    "static/css/main.fac1bd78.chunk.css",
+    "static/css/main.05c7c917.chunk.css",
     "static/js/main.9dab24d2.chunk.js"
   ]
 }
