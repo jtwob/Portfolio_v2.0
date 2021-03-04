@@ -23,7 +23,7 @@ const index = (props) => {
           <hr />
           <p className="card-text">{props.name}</p>
           <p className="card-text">Email: {props.email}</p>
-          <p className="card-text">Cell:{props.cell}</p>
+          <p className="card-text">Cell: {props.cell}</p>
           <a className="card-link" href={props.linkedIn}>
             LinkedIn Profile
           </a>

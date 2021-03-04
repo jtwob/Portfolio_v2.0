@@ -3,7 +3,7 @@ import React from "react";
 const Nav = (props) => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <a className="navbar-brand" href="/">
+      <a className="navbar-brand" href="/Portfolio_v2.0/">
         James Totah
       </a>
       <button
