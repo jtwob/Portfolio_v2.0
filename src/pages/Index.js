@@ -30,6 +30,13 @@ const index = (props) => {
           <a href={props.github} className="card-link">
             GitHub Profile
           </a>
+          <a
+            className="card-link"
+            href="./assets/James_Totah_Resume.pdf"
+            download
+          >
+            Resume
+          </a>
         </div>
       </div>
     </div>

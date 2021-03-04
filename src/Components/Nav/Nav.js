@@ -1,9 +1,15 @@
 import React from "react";
 
 const Nav = (props) => {
+  const change = function (event) {
+    event.preventDefault();
+    props.setpath({ path: event.target.attributes.data.value });
+    console.log(event.target.attributes.data.value);
+  };
+
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <a className="navbar-brand" href="/Portfolio_v2.0/">
+      <a className="navbar-brand" href="/">
         James Totah
       </a>
       <button
@@ -20,23 +26,22 @@ const Nav = (props) => {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-            <a className="nav-link" href="/Portfolio_v2.0/">
-              Home
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="/Portfolio_v2.0/portfolio">
-              Portfolio
-            </a>
-          </li>
-          <li className="nav-item">
-            <a
-              className="nav-link"
-              href="./assets/James_Totah_Resume.pdf"
-              download
+            <button
+              onClick={(event) => change(event)}
+              data={"/"}
+              className="btn"
             >
-              Resume
-            </a>
+              Home
+            </button>
+          </li>
+          <li className="nav-item">
+            <button
+              onClick={(event) => change(event)}
+              data={"/portfolio"}
+              className="btn"
+            >
+              Portfolio
+            </button>
           </li>
         </ul>
       </div>

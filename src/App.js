@@ -1,12 +1,14 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Nav from "./Components/Nav/Nav";
 import Index from "./pages/Index";
 import Portfolio from "./pages/Portfolio";
 import Footer from "./Components/Footer/Footer";
+import { useEffect, useState } from "react";
 
 function App() {
+  const [path, setPath] = useState({ path: "/" });
+
   const info = {
     image: "./assets/images/Portrait.jpg",
     altText: "James-Totah-Headshot",
@@ -66,13 +68,51 @@ function App() {
       live: "https://eat-da-burger-jtwob.herokuapp.com/",
     },
   ];
+
+  const renderHelper = function () {
+    let rendered;
+    // console.log(path);
+    switch (path.path) {
+      case "/":
+        rendered = (
+          <Index
+            style={{
+              backgroundColor: "white",
+              marginTop: 25 + "px",
+              padding: 10 + "px",
+            }}
+            image={info.image}
+            altText={info.altText}
+            text={info.text}
+            name={info.name}
+            email={info.email}
+            cell={info.cell}
+            linkedIn={info.linkedIn}
+            github={info.github}
+          />
+        );
+        break;
+      case "/portfolio":
+        rendered = <Portfolio projects={projects} />;
+        break;
+    }
+    return rendered;
+  };
+
+  useEffect(() => {
+    return () => {
+      renderHelper();
+    };
+  }, [renderHelper, path]);
+
   return (
     <div className="App">
-      <Nav />
-      <div className="container">
-        <Router>
+      <Nav setpath={setPath} />
+      <div className="container">{renderHelper()}</div>
+      {/* <div className="container">
+        <Router basename={process.env.PUBLIC_URL}>
           <Switch>
-            <Route exact path={"/Portfolio_v2.0/"}>
+            <Route exact path={"/"}>
               <Index
                 style={{
                   backgroundColor: "white",
@@ -89,12 +129,12 @@ function App() {
                 github={info.github}
               />
             </Route>
-            <Route path={"/Portfolio_v2.0/portfolio"}>
+            <Route exact path={"/portfolio/"}>
               <Portfolio projects={projects} />
             </Route>
           </Switch>
         </Router>
-      </div>
+      </div> */}
       <Footer />
     </div>
   );
