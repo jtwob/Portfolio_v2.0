@@ -71,7 +71,6 @@ function App() {
 
   const renderHelper = function () {
     let rendered;
-    // console.log(path);
     switch (path.path) {
       case "/":
         rendered = (
@@ -109,32 +108,6 @@ function App() {
     <div className="App">
       <Nav setpath={setPath} />
       <div className="container">{renderHelper()}</div>
-      {/* <div className="container">
-        <Router basename={process.env.PUBLIC_URL}>
-          <Switch>
-            <Route exact path={"/"}>
-              <Index
-                style={{
-                  backgroundColor: "white",
-                  marginTop: 25 + "px",
-                  padding: 10 + "px",
-                }}
-                image={info.image}
-                altText={info.altText}
-                text={info.text}
-                name={info.name}
-                email={info.email}
-                cell={info.cell}
-                linkedIn={info.linkedIn}
-                github={info.github}
-              />
-            </Route>
-            <Route exact path={"/portfolio/"}>
-              <Portfolio projects={projects} />
-            </Route>
-          </Switch>
-        </Router>
-      </div> */}
       <Footer />
     </div>
   );

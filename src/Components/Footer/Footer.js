@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer
-      className="footer"
+      className="navbar-fixed-bottom"
       style={{
         marginTop: 25 + "px",
         backgroundColor: "white",
@@ -11,7 +11,7 @@ const Footer = () => {
       }}
     >
       <div className="container">
-        <span className="text-muted">Designed by James Totah</span>
+        <span className="text-muted">&copy; James Totah 2021</span>
       </div>
     </footer>
   );
