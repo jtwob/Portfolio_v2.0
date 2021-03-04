@@ -89,7 +89,7 @@ function App() {
                 github={info.github}
               />
             </Route>
-            <Route path={"/Portfolio_v2.0/portfolio"}>
+            <Route exact path={"/Portfolio_v2.0/portfolio"}>
               <Portfolio projects={projects} />
             </Route>
           </Switch>
