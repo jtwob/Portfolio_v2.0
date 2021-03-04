@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.17c85155.chunk.css",
-    "main.js": "/static/js/main.9dab24d2.chunk.js",
-    "main.js.map": "/static/js/main.9dab24d2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.41fdcf2a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.41fdcf2a.js.map",
-    "static/js/2.1a0d420d.chunk.js": "/static/js/2.1a0d420d.chunk.js",
-    "static/js/2.1a0d420d.chunk.js.map": "/static/js/2.1a0d420d.chunk.js.map",
-    "static/js/3.06372844.chunk.js": "/static/js/3.06372844.chunk.js",
-    "static/js/3.06372844.chunk.js.map": "/static/js/3.06372844.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.17c85155.chunk.css.map": "/static/css/main.17c85155.chunk.css.map",
-    "static/js/2.1a0d420d.chunk.js.LICENSE.txt": "/static/js/2.1a0d420d.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/double-bubble.2a64f86f.png",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "main.css": "/portfolio/static/css/main.fac1bd78.chunk.css",
+    "main.js": "/portfolio/static/js/main.9dab24d2.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.9dab24d2.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.bd61e705.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.bd61e705.js.map",
+    "static/js/2.1a0d420d.chunk.js": "/portfolio/static/js/2.1a0d420d.chunk.js",
+    "static/js/2.1a0d420d.chunk.js.map": "/portfolio/static/js/2.1a0d420d.chunk.js.map",
+    "static/js/3.06372844.chunk.js": "/portfolio/static/js/3.06372844.chunk.js",
+    "static/js/3.06372844.chunk.js.map": "/portfolio/static/js/3.06372844.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.fac1bd78.chunk.css.map": "/portfolio/static/css/main.fac1bd78.chunk.css.map",
+    "static/js/2.1a0d420d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1a0d420d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/portfolio/static/media/double-bubble.2a64f86f.png",
+    "static/media/logo.6ce24c58.svg": "/portfolio/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.41fdcf2a.js",
+    "static/js/runtime-main.bd61e705.js",
     "static/js/2.1a0d420d.chunk.js",
-    "static/css/main.17c85155.chunk.css",
+    "static/css/main.fac1bd78.chunk.css",
     "static/js/main.9dab24d2.chunk.js"
   ]
 }
