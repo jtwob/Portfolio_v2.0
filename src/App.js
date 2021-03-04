@@ -72,7 +72,7 @@ function App() {
       <div className="container">
         <Router>
           <Switch>
-            <Route exact path={"/"}>
+            <Route exact path={"/Portfolio_v2.0/"}>
               <Index
                 style={{
                   backgroundColor: "white",
@@ -89,7 +89,7 @@ function App() {
                 github={info.github}
               />
             </Route>
-            <Route path={"/portfolio"}>
+            <Route path={"/Portfolio_v2.0/portfolio"}>
               <Portfolio projects={projects} />
             </Route>
           </Switch>
