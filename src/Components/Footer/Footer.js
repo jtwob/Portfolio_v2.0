@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer
-      className="navbar-fixed-bottom"
+      className="footer"
       style={{
         marginTop: 25 + "px",
         backgroundColor: "white",

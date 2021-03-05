@@ -105,11 +105,13 @@ function App() {
   }, [renderHelper, path]);
 
   return (
-    <div className="App">
-      <Nav setpath={setPath} />
-      <div className="container">{renderHelper()}</div>
+    <>
+      <div className="App">
+        <Nav setpath={setPath} />
+        <div className="container">{renderHelper()}</div>
+      </div>
       <Footer />
-    </div>
+    </>
   );
 }
 
