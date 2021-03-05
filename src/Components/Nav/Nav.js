@@ -4,7 +4,6 @@ const Nav = (props) => {
   const change = function (event) {
     event.preventDefault();
     props.setpath({ path: event.target.attributes.data.value });
-    console.log(event.target.attributes.data.value);
   };
 
   return (
