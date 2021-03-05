@@ -106,7 +106,7 @@ function App() {
 
   return (
     <>
-      <div className="App">
+      <div className="App" style={{ minHeight: 100 + "%" }}>
         <Nav setpath={setPath} />
         <div className="container">{renderHelper()}</div>
       </div>
